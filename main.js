@@ -14,7 +14,6 @@ while (contador < listaDeTeclas.length) {
    const instrumento = tecla.classList[1];
    
    //`#som_${ìnstrumento}`; =>>> é uma template string
-
    const idAudio = `#som_${instrumento}`;
    console.log(idAudio);
 
